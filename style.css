@@ -24,12 +24,14 @@ body.modal-open {
   display: flex;
   flex-direction: column;
   width: 400px;
-  padding: 20px;
+  padding: var(--em-1);
   box-shadow: var(--box-shadow);
   margin: var(--em-1) auto;
   height: 100%;
   border-radius: 10px;
-  margin-top: 100px;
+  margin-top: 250px;
+  margin-inline: auto;
+  transform: scale(.9);
 }
 
 .logo {
