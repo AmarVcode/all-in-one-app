@@ -24,7 +24,7 @@ body.modal-open {
   display: flex;
   flex-direction: column;
   width: 400px;
-  padding: var(--em-1);
+  padding: 20px;
   box-shadow: var(--box-shadow);
   margin: var(--em-1) auto;
   height: 100%;
